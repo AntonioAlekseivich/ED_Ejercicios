@@ -1,4 +1,4 @@
-package Examen.src/Examen.src;
+package Examen.src;
 
 
 public class Main {
