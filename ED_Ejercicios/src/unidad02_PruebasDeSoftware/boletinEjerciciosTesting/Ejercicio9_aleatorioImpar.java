@@ -28,7 +28,7 @@ public class Ejercicio9_aleatorioImpar {
 
 			if (numero1 < 0) {// comprobamos que no sea negativo
 				System.out.println("-1");
-				continue;
+			
 
 			} else {
 				System.out.println("Introduzca el segundo numero");// pedimos el segundo numero
