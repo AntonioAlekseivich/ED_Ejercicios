@@ -50,6 +50,6 @@ public class Ejercicio9_aleatorioImpar {
 				}
 			}
 		}
-
+//commit estadistica github
 	}
 }
