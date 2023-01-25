@@ -34,7 +34,7 @@ public class Ejercicio9_aleatorioImpar {
 				System.out.println("Introduzca el segundo numero");// pedimos el segundo numero
 				numero2 = s.nextInt();
 
-				if (numero2 - 10 < numero1 || numero2 < 0) {// comprobamos que sea como minimo 10 unidades mayor que el
+				if (numero2 - 10 < numero1) {// comprobamos que sea como minimo 10 unidades mayor que el
 															// 1
 					System.out.println("-1"); // Y que sea positivo
 
@@ -45,7 +45,7 @@ public class Ejercicio9_aleatorioImpar {
 																								// entre esos 2
 
 					} while (numeroDevuelto % 2 == 0);// hasta que ese nº sea impar
-					System.out.println("Un numero primo entre esos dos numeros es:" + numeroDevuelto);// entonces lo
+					System.out.println("Un numero impar entre esos dos numeros es:" + numeroDevuelto);// entonces lo
 																										// imprimimos
 				}
 			}
