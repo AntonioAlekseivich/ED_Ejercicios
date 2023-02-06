@@ -2,11 +2,8 @@ package junit_Ejercicio;
 
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
-import Persona;
-import Persona;
-import Persona;
+
 
 class TestPersona {
 
