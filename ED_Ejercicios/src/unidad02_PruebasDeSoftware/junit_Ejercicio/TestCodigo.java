@@ -8,7 +8,7 @@ class TestCodigo {
 
 	@Test
 	void testSumarPositivos() {
-		assertEquals(Codigo.resta(5,4),1);
+		assertEquals(Codigo.resta(10,4),5);
 	}
 	@Test
 	void edad() {

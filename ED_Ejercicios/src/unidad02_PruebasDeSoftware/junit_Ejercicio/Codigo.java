@@ -3,8 +3,7 @@ package junit_Ejercicio;
 public class Codigo {
 
 	public static int resta(int i, int j) {
-		i=5;
-		j=4;
+		
 		return i-j;
 	}
 	
