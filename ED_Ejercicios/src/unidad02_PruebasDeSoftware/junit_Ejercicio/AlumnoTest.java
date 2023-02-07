@@ -11,12 +11,14 @@ class AlumnoTest {
 		Alumno pepe = new Alumno(4);
 		assertEquals(pepe.notaCualitativa(),"Suspenso");
 		}
+	
 		@Test
 		void testNotaCualitativaJaime() {
 		
 		Alumno jaime = new Alumno(5);
 		assertEquals(jaime.notaCualitativa(),"Bien");
 		}
+		
 		@Test
 		void testNotaCualitativaJorge() {
 		
