@@ -1,4 +1,4 @@
-package boletinJunit;
+package boletinJunit.Ejercicio01;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class Ejercicio01Test {
 
 	@Test
-	void test() {
+	void Contar() {
 		assertEquals(Ejercicio01.contar(7,9),"7,8,9");
 		
 		//No hay numeros entre 7 y 8, sin embargo devuelve "1,2" en vez de la cadena vacia

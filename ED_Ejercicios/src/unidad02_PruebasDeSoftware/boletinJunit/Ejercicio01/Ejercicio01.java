@@ -1,4 +1,4 @@
-package boletinJunit;
+package boletinJunit.Ejercicio01;
 
 public class Ejercicio01 {
 
