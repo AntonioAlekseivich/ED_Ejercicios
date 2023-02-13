@@ -1,7 +1,7 @@
-package boletinEjerciciosTesting;
+package boletinEjerciciosTesting.Ejercicio12_intNota;
 import java.util.Scanner;
 
-public class Ejercicio12_intNota {
+public class StaticVoidString {
 
 	public static void main(String[] args) {
 		/*Tenemos un método public static void aprobado(int nota)
