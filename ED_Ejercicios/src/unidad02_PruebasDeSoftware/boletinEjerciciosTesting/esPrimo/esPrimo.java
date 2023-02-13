@@ -1,4 +1,4 @@
-package boletinEjerciciosTesting;
+package boletinEjerciciosTesting.esPrimo;
 
 public class esPrimo {
 	

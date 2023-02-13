@@ -1,4 +1,4 @@
-package boletinEjerciciosTesting;
+package boletinEjerciciosTesting.aleatorioImpar;
 
 import static org.junit.jupiter.api.Assertions.*;
 

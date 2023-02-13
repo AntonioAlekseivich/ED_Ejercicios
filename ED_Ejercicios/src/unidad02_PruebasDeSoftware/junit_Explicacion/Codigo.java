@@ -1,4 +1,4 @@
-package junit_Ejercicio;
+package junit_Explicacion;
 
 public class Codigo {
 

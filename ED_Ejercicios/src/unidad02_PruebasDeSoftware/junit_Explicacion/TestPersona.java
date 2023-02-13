@@ -1,4 +1,4 @@
-package junit_Ejercicio;
+package junit_Explicacion;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;

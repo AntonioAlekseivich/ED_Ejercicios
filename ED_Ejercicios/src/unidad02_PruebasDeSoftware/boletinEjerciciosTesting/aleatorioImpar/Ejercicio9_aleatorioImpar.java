@@ -1,4 +1,4 @@
-package boletinEjerciciosTesting;
+package boletinEjerciciosTesting.aleatorioImpar;
 
 import java.util.Scanner;
 
