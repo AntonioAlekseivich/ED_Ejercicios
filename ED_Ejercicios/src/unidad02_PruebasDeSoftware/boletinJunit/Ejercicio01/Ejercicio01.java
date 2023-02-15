@@ -10,7 +10,7 @@ public class Ejercicio01 {
 
 	/**
 	 * El siguiente metodo devuelve un String con los numeros que hay entre el parametro desde y hasta,
-	 * separados por comas,  por ejemplo 2,3,4.
+	 * separados por comas, por ejemplo 2,3,4.
 	 * Si no hay ningun número entre ambos números, devuelve la cadena vacía.
 	 *
 	 * @param desde indica el numero por el que se empieza a contar
@@ -31,7 +31,9 @@ public class Ejercicio01 {
 		} else {
 			return resultado;
 		}
+		//La cobertura de sentencias seria una prueba para cada return
 		
+		//La de caminos una para cada caso de equivalencia??
 	}
 }
 

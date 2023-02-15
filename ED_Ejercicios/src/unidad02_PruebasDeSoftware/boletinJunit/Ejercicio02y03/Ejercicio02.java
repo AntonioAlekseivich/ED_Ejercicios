@@ -1,4 +1,4 @@
-package boletinJunit.Ejercicio02;
+package boletinJunit.Ejercicio02y03;
 
 public class Ejercicio02 {
 
@@ -15,6 +15,7 @@ public class Ejercicio02 {
 	 *    		 que contiene.
 	 * @return int número de vocales que contiene el parámetro de entrada nombreCompleto
 	 */
+	
 	public static int contarVocales(String nombreCompleto) {
 
 		//Declaración de variables
@@ -24,7 +25,7 @@ public class Ejercicio02 {
 		int numeroCaracteresNombreCompleto=nombreCompleto.length()-1;//numeroCaracteresNombreCompleto contiene el numero de caracteres
 		//de nombreCompleto, teniendo en cuenta que empieza por cero, por eso -1.
 
-		for(int i=0;i<=numeroCaracteresNombreCompleto;i++) {//Recorremos todos los caracteres de nombreCompleto,
+		for(int i=0; i<=numeroCaracteresNombreCompleto; i++) {//Recorremos todos los caracteres de nombreCompleto,
 			//empezando por el primero
 
 			char caracter=nombreCompleto.charAt(i);//Obtenemos el caracter que está en la posición i
@@ -35,6 +36,9 @@ public class Ejercicio02 {
 		}
 		return numeroVocales;//Devolvemos el resultado
 	}
+		//aqui se necesitaria dos pruebas para la cobertura de sentencias; una que entre en el if y otra que no
+	
+	
 
 	/**
 	 * Método privado que devuelve si caracter es una vocal o no.
@@ -53,6 +57,5 @@ public class Ejercicio02 {
 		//"AEIOUaeio", false en caso contrario.
 	}
 
-}
-
+}		//
 

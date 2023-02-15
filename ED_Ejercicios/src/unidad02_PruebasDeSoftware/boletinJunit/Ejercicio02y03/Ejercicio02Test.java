@@ -1,10 +1,10 @@
-package boletinJunit.Ejercicio02;
+package boletinJunit.Ejercicio02y03;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import boletinJunit.Ejercicio01.Ejercicio01;
+
 
 class Ejercicio02Test {
 
