@@ -4,11 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class Ejercicio9_aleatorioImparTest {
+import boletinEjerciciosTesting.esPrimo.esPrimo;
+
+class aleatorioImpar_metodo {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void aleatorioImpar() {
+		assertEquals(esPrimo.esPrimo(7),true);
 	}
 
 }

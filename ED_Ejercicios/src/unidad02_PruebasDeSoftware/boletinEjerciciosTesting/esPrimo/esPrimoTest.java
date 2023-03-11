@@ -8,14 +8,28 @@ import org.junit.jupiter.api.Test;
 
 class esPrimoTest {
 		@Test
-		void esPrimo() {
+		void esPrimo7() {
 			assertEquals(esPrimo.esPrimo(7),true);
-			assertEquals(esPrimo.esPrimo(8),false);
-			assertEquals(esPrimo.esPrimo(0),false);
-			assertEquals(esPrimo.esPrimo(1),false);
-			assertEquals(esPrimo.esPrimo(4),false);
-			assertEquals(esPrimo.esPrimo(245),false);
+			
 	}
+		@Test
+		void esPrimo1() {
+			assertEquals(esPrimo.esPrimo(1),false);
+			
+	}	@Test
+		void esPrimo6() {
+		assertEquals(esPrimo.esPrimo(6),false);
+		
+}
+	@Test
+	void esPrimo0() {
+	assertEquals(esPrimo.esPrimo(0),false);
+	
+}@Test
+	void esPrimo4() {
+	assertEquals(esPrimo.esPrimo(4),false);
+	
+}
 }
 
 

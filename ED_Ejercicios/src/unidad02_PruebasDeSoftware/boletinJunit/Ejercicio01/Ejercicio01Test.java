@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 class Ejercicio01Test {
 
-	@Test
+/*	@Test
 	void Contar() {
 		assertEquals(Ejercicio01.contar(7,9),"7,8,9");
 		
@@ -26,5 +26,19 @@ class Ejercicio01Test {
 		
 		assertEquals(Ejercicio01.contar(-5,3),"-5,-4,-3,-2,-1,0,1,2,3");
 	}
-
+*/
+	
+	@Test
+	void noEntra() {
+		assertEquals(Ejercicio01.contar(0,0),"0");
+	}
+	@Test
+	void entra() {
+		assertEquals(Ejercicio01.contar(1,1),"1");
+	}
+	@Test
+	void Contar() {
+		assertEquals(Ejercicio01.contar(1,9),"1,2,3,4,5,6,7,8,9");
+	}
+	
 }

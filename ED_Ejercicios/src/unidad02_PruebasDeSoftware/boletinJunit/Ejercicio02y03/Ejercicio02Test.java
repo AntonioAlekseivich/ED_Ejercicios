@@ -7,18 +7,23 @@ import org.junit.jupiter.api.Test;
 
 
 class Ejercicio02Test {
-
+//cobertura de caminos
 	@Test
-	void contarVocales() {
-		assertEquals(Ejercicio02.contarVocales("Cuatrocientosveinte"),9);
-		
+	void entraTodo() {
+		assertEquals(Ejercicio02.contarVocales("Cuatro"),3);
+	}
+	@Test
+	void noEntra() {
 		assertEquals(Ejercicio02.contarVocales(""),0);
-		
-		assertEquals(Ejercicio02.contarVocales("sdfrw"),0);
-		
-		assertEquals(Ejercicio02.contarVocales("329"),0);
-		
-		assertEquals(Ejercicio02.contarVocales("cuatro4"),3);
+	}
+	@Test
+	void entraPocoAPoco(){
+			assertEquals(Ejercicio02.contarVocales("ba"),1);
+	}	
+//cobertura de sentencias
+	@Test
+	void entraTodoDeUna() {
+		assertEquals(Ejercicio02.contarVocales("Cuatrocientos"),6);
 	}
 
 }
