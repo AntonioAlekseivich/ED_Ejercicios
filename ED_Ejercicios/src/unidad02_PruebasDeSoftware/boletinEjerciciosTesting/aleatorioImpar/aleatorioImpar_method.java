@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class aleatorioImpar_method {
 	
-
+//comentario para subir commit y guardar el token, no lo guarde en secure store
 private static int metodoAleatorioImpar(int numero1, int numero2) {
 
 	
