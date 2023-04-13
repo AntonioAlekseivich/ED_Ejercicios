@@ -1,7 +1,7 @@
 package boletinEjerciciosTesting.aleatorioImpar;
 import java.util.Random;
 
-public class aleatorioImpar_metodo {
+public class aleatorioImpar_method {
 	
 
 private static int metodoAleatorioImpar(int numero1, int numero2) {
